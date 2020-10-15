@@ -10,9 +10,8 @@
     <div class="card ">
       <div class="card-body pb-0">
         <blockquote class="blockquote text-center">
-          <p class="">Pleasure is an important component of the quality of life, but by itself it does not bring
-            happiness. Pleasure helps to maintain order, but by itself cannot create a new order in consciousness.</p>
-          <footer class="blockquote-footer mt-3 text-left">Some Famous Guy that is dead now</footer>
+          <p class="">{{ quote.quote_text }}</p>
+          <footer class="blockquote-footer mt-3 text-left">{{ quote.quote_author }}</footer>
         </blockquote>
       </div>
     </div>
@@ -23,10 +22,11 @@
   <div class="col-md-7 col-s-8">
     <h2 class="text-center mt-5 mb-3">Some other quotes</h2>
     <ul class="list-group">
-      <li class="list-group-item">wahhh</li>
-      <li class="list-group-item">ooga booga</li>
-      <li class="list-group-item">Coder</li>
-      <li class="list-group-item">yeet</li>
+      {% for quote in quote_list %}
+
+      <li class="list-group-item">{{ quote.quote_text }} - {{ quote.quote_author }}</li>
+
+      {% endfor %}
     </ul>
   </div>
 
