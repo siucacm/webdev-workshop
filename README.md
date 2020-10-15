@@ -20,7 +20,7 @@ Using the approach above the HTML is filled with data from the server, usually f
 ## Installing Python and Django
 In this we will be using Python and a web framework Django. Make sure you have at least python 3, you can check by running `python --version` or on Linux `python3`. 
 
-**NOTE**: On linux you may or may not have to do many steps to get python 3 and pip 3 symbolically linked in order to work. If you encounter this go [HERE]("https://www.howtoforge.com/tutorial/how-to-install-django-on-ubuntu/")
+**NOTE**: On linux you may or may not have to do many steps to get python 3 and pip 3 symbolically linked in order to work. If you encounter this go [HERE](https://www.howtoforge.com/tutorial/how-to-install-django-on-ubuntu/)
 
 After python 3 is setup run `pip install django`. Restart your terminal and make sure `django-admin` is recognized as a command. That means everything is installed. 
 ## Useful Commands
