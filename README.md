@@ -4,8 +4,10 @@ This workshop will be centered around **Server Side Rendering** with Python and 
 ### What is Server Side Rendering (SSR)?
 To understand this let's take a look at how a normal plain static website's architecture would look.
 ![static](imgs/static.png)
+
 With this approach, there is no way to add any dynamic data unless you use a JavaScript request, which may not always be ideal, because you may want the data to be displayed right on the page load to the user, instead of waiting for a separate request to finish.
 ![ssr](imgs/ssr.png)
+
 Using the approach above the HTML is filled with data from the server, usually from a database.
 ### Why use SSR (Pros)?
 - You want data on your page to be seen as soon as the page gets send to the user
